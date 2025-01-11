@@ -1,0 +1,420 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAFpAJrBKcCGvno=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAFpAJrBLcCHtE8=",
+					"_parent": {
+						"$ref": "AAAAAAFpAJrBKcCGvno="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAFpAJrzc8CN674=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrBLcCHtE8="
+							},
+							"model": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/HTSe1ZLyPs0=",
+									"_parent": {
+										"$ref": "AAAAAAFpAJrzc8CN674="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 133,
+									"width": 95.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFpAJrzdcCTCnY=",
+									"_parent": {
+										"$ref": "AAAAAAFpAJrzc8CN674="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 133,
+									"width": 95.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFpAJrzc8COIYU=",
+									"_parent": {
+										"$ref": "AAAAAAFpAJrzc8CN674="
+									},
+									"font": "Arial;13;0",
+									"left": 162,
+									"top": 138,
+									"width": 95.4326171875,
+									"height": 13,
+									"text": "HRD",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAFpAJrzc8CPQlU=",
+									"_parent": {
+										"$ref": "AAAAAAFpAJrzc8CN674="
+									},
+									"font": "Arial;13;0",
+									"left": 160,
+									"top": 128,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 152,
+							"top": 128,
+							"width": 115.4326171875,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAFpAJrzc8COIYU="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF/DNqhIcDOl8w=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrBLcCHtE8="
+							},
+							"model": {
+								"$ref": "AAAAAAF/DNqhIcDMgR8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/DNqhIsDPeGM=",
+									"_parent": {
+										"$ref": "AAAAAAF/DNqhIcDOl8w="
+									},
+									"font": "Arial;13;0",
+									"left": 434,
+									"top": 152,
+									"width": 109,
+									"height": 52,
+									"text": "SISTEM INFORMASI INPUT DATA KARYAWAN",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF/DNqhIsDQAnw=",
+									"_parent": {
+										"$ref": "AAAAAAF/DNqhIcDOl8w="
+									},
+									"font": "Arial;13;0",
+									"left": 434,
+									"top": 125,
+									"width": 109,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 424,
+							"top": 120,
+							"width": 129,
+							"height": 137,
+							"nameLabel": {
+								"$ref": "AAAAAAF/DNqhIsDPeGM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF/DNqhIsDQAnw="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF/DNvXPsDmep0=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrBLcCHtE8="
+							},
+							"model": {
+								"$ref": "AAAAAAF/DNvXPsDkzyE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/DNvXPsDneNk=",
+									"_parent": {
+										"$ref": "AAAAAAF/DNvXPsDmep0="
+									},
+									"model": {
+										"$ref": "AAAAAAF/DNvXPsDkzyE="
+									},
+									"font": "Arial;13;0",
+									"left": 325,
+									"top": 123,
+									"width": 40.45361328125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/DNvXPsDmep0="
+									},
+									"edgePosition": 1,
+									"text": "LOGIN"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/DNqhIcDOl8w="
+							},
+							"tail": {
+								"$ref": "AAAAAAFpAJrzc8CN674="
+							},
+							"points": "266:144;424:144",
+							"nameLabel": {
+								"$ref": "AAAAAAF/DNvXPsDneNk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF/DN0Pd8D7ykQ=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrBLcCHtE8="
+							},
+							"model": {
+								"$ref": "AAAAAAF/DN0Pd8D5gPc="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/DN0Pd8D8W1w=",
+									"_parent": {
+										"$ref": "AAAAAAF/DN0Pd8D7ykQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF/DN0Pd8D5gPc="
+									},
+									"font": "Arial;13;0",
+									"left": 286,
+									"top": 211,
+									"width": 88.86083984375,
+									"height": 13,
+									"alpha": 0.12233682388763918,
+									"distance": 122.9186723000212,
+									"hostEdge": {
+										"$ref": "AAAAAAF/DN0Pd8D7ykQ="
+									},
+									"edgePosition": 1,
+									"text": "KELOLA DATA"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/DNqhIcDOl8w="
+							},
+							"tail": {
+								"$ref": "AAAAAAFpAJrzc8CN674="
+							},
+							"points": "208:176;208:232;424:232",
+							"nameLabel": {
+								"$ref": "AAAAAAF/DN0Pd8D8W1w="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF/DN9Oq8EO0ps=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrBLcCHtE8="
+							},
+							"model": {
+								"$ref": "AAAAAAF/DN9Oq8EMwQk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/DN9Oq8EPNQ0=",
+									"_parent": {
+										"$ref": "AAAAAAF/DN9Oq8EO0ps="
+									},
+									"model": {
+										"$ref": "AAAAAAF/DN9Oq8EMwQk="
+									},
+									"font": "Arial;13;0",
+									"left": 280,
+									"top": 287,
+									"width": 203.23291015625,
+									"height": 13,
+									"alpha": -0.04252753642728546,
+									"distance": 235.2126697267815,
+									"hostEdge": {
+										"$ref": "AAAAAAF/DN9Oq8EO0ps="
+									},
+									"edgePosition": 1,
+									"text": "LAPORAN DATA KARYAWAN"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFpAJrzc8CN674="
+							},
+							"tail": {
+								"$ref": "AAAAAAF/DNqhIcDOl8w="
+							},
+							"points": "552:168;616:168;616:304;184:304;184:176",
+							"nameLabel": {
+								"$ref": "AAAAAAF/DN9Oq8EPNQ0="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF/HTUenJMMb28=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrBLcCHtE8="
+							},
+							"model": {
+								"$ref": "AAAAAAF/HTUem5MKk6k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF/HTUenJMNQ4A=",
+									"_parent": {
+										"$ref": "AAAAAAF/HTUenJMMb28="
+									},
+									"model": {
+										"$ref": "AAAAAAF/HTUem5MKk6k="
+									},
+									"font": "Arial;13;0",
+									"left": 313,
+									"top": 59,
+									"width": 62.130859375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF/HTUenJMMb28="
+									},
+									"edgePosition": 1,
+									"text": "Hak Akses"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF/DNqhIcDOl8w="
+							},
+							"tail": {
+								"$ref": "AAAAAAFpAJrzc8CN674="
+							},
+							"points": "209:128;209:80;480:80;480:120",
+							"nameLabel": {
+								"$ref": "AAAAAAF/HTUenJMNQ4A="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAFpAJrzcsCLGzw=",
+					"_parent": {
+						"$ref": "AAAAAAFpAJrBKcCGvno="
+					},
+					"name": "HRD",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF/DNvXPsDkzyE=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"name": "LOGIN",
+							"source": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"target": {
+								"$ref": "AAAAAAF/DNqhIcDMgR8="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF/DN0Pd8D5gPc=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"name": "KELOLA DATA",
+							"source": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"target": {
+								"$ref": "AAAAAAF/DNqhIcDMgR8="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF/HTUem5MKk6k=",
+							"_parent": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"name": "Hak Akses",
+							"source": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							},
+							"target": {
+								"$ref": "AAAAAAF/DNqhIcDMgR8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF/DNqhIcDMgR8=",
+					"_parent": {
+						"$ref": "AAAAAAFpAJrBKcCGvno="
+					},
+					"name": "SISTEM INFORMASI INPUT DATA KARYAWAN",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF/DN9Oq8EMwQk=",
+							"_parent": {
+								"$ref": "AAAAAAF/DNqhIcDMgR8="
+							},
+							"name": "LAPORAN DATA KARYAWAN",
+							"source": {
+								"$ref": "AAAAAAF/DNqhIcDMgR8="
+							},
+							"target": {
+								"$ref": "AAAAAAFpAJrzcsCLGzw="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
